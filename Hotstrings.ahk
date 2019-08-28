@@ -294,12 +294,64 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\mgt::≫
 :*:\>>::≫
 
+; Composition
+:*:\composition::∘
+
 ; Implies
 :*:\implies::⇒
+:*:\altimplies::→
+
+; Reverse Implies:
+:*:\reverseimplies::⇐
+:*:\altreverseimplies::←
+
+; If and only if/Bidirectional
+:*:\iff::⇔
+:*:\altiff::↔
+:*:\bidirectional::⇔
+
+; Logical equivalence
+:*:\equivalent::≡
+:*:\eqv::≡
+
+; Not Logical equivalence
+:*:\notequivalent::≢
+:*:\noteqv::≢
+
+; Not
+:*:\not::¬
+:*:\altnot::~
+
+; xor
+:*:\xor::⊕
+
+; nand
+:*:\nand::⊼
+:*:\altnand::↑
+
+; nor
+:*:\nor::⊽
+:*:\altnor::↓
+
+; Asterisk
+:*:\ast::*
+
+; Dagger
+:*:\dagger::†
+
+; Star
+:*:\star::⋆
 
 ; There exists
 :*:\thereexists::∃
 :*:\te::∃
+
+; Arrows
+:*:\rightarrow::→
+:*:\leftarrow::←
+:*:\leftrightarrow::↔
+:*:\uparrow::↑
+:*:\downarrow::↓
 
 ; There does not exist
 :*:\theredoesnotexist::∄
@@ -346,6 +398,41 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Or
 :*:\or::∨
 
+; Circled/O Plus
+:*:\oplus::⊕
+:*:\circledplut::⊕
+
+; Circled Minus
+:*:\ominus::⊖
+:*:\circledminus::⊖
+
+; Circled Cross
+:*:\ocross::⊗
+:*:\circledcross::⊗
+
+; Circled dot
+:*:\odot::⊙
+:*:\circleddot::⊙
+
+; Squared plus
+:*:\_squaredplus::⊞
+
+; Squared minus
+:*:\_squaredminus::⊟
+
+; Squared dot
+:*:\_squareddot::⊡
+
+; Squared cross
+:*:\_squaredcross::⊠
+
+; Ellipses
+:*:\ellipses::⋯
+:*:\horizontalellipses::⋯
+:*:\verticalellipses::⋮
+:*:\diagonalellipses::⋱
+:*:\altdiagonalellipses::⋰
+
 ; Therefore
 :*:\therefore::∴
 
@@ -377,12 +464,31 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Degrees
 :*:\degrees::°
 
+; Named Sets
+:*:\naturalnumbers::ℕ
+:*:\integers::ℤ
+:*:\rationalnumbers::ℚ
+:*:\realnumbers::ℝ
+:*:\complexnumbers::ℂ
+
+:*:\setN::ℕ
+:*:\setZ::ℤ
+:*:\setQ::ℚ
+:*:\setR::ℝ
+:*:\setC::ℂ
+
+
 
 ;; other stuff
 
 :*:\shrug::¯\_(ツ)_/¯
 :*:\fliptable::(╯°□°）╯︵ ┻━┻
 :*:\unfliptable::┬─┬ノ( º _ ºノ)﻿
+
+
+:*:\tm::™
+:*:\copyright::©
+:*:\registered::®
 
 :*:\navyseal::
 (
