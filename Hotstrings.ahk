@@ -352,6 +352,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\leftrightarrow::↔
 :*:\uparrow::↑
 :*:\downarrow::↓
+:*:\updownarrow::⭥
+
+:*:\to::→
+:*:\mapsto::↦
 
 ; There does not exist
 :*:\theredoesnotexist::∄
@@ -460,6 +464,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Point
 :*:\point::(,){left 2}
+
+; Angled brackets
+:*:\langle::⟨
+:*:\rangle::⟩
+
+; Double bar
+:*:\doublebar::‖
 
 ; Degrees
 :*:\degrees::°
