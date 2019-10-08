@@ -91,7 +91,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\sigma::σ
 :*:\Sigma::Σ
 
-
+; ς - Alternate Sigma
 :*:\altsigma::ς
 
 ; Τ τ - Tau
@@ -335,7 +335,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Does not contain
 :*:\notcontains::∌
-:*:\nin::∌
+:*:\nni::∌
 
 ; End of proof/ QED
 :*:\endofproof::∎
