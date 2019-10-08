@@ -5,11 +5,6 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-
-;; Programming
-
-::sout::System.out.println
-
 ;; email
 
 :*:c@::curtisbrnkr@gmail.com
@@ -23,154 +18,105 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Greek alphabet
 ; Α α - Alpha
 :*:\alpha::α
-:*:\'Alpha::α
-:*:\'alpha::Α
 :*:\Alpha::Α
 
 ; Β β - Beta
 :*:\beta::β
-:*:\'Beta::β
-:*:\'beta::Β
-:*:\'Beta::Β
+:*:\Beta::Β
 
 ; Γ γ - Gamma
 :*:\gamma::γ
-:*:\'Gamma::γ
-:*:\'gamma::Γ
 :*:\Gamma::Γ
 
 ; Δ δ - Delta
 :*:\delta::δ
-:*:\'Delta::δ
 :*:\Delta::Δ
-:*:\'delta::Δ
 
 ; Ε ε - Epsilon
 :*:\epsilon::ε
-:*:\'Epsilon::ε
 :*:\Epsilon::Ε
-:*:\'epsilon::Ε
 
 ; Ζ ζ - Zeta
 :*:\zeta::ζ
-:*:\'Zeta::ζ
 :*:\Zeta::Ζ
-:*:\'zeta::Ζ
 
 ; Η η - Eta
 :*:\eta::η
-:*:\'Eta::η
 :*:\Eta::Η
-:*:\'eta::Η
 
 ; Θ θ - Theta
 :*:\theta::θ
-:*:\'Theta::θ
 :*:\Theta::Θ
-:*:\'theta::Θ
 
 ; Ι ι - Iota
 :*:\iota::ι
-:*:\'Iota::ι
 :*:\Iota::Ι
-:*:\'iota::Ι
 
 ; Κ κ - Kappa
 :*:\kappa::κ
-:*:\'Kappa::κ
 :*:\Kappa::Κ
-:*:\'kappa::Κ
 
 ; Λ λ - La(m)bda 
 :*:\lambda::λ
-:*:\'Lambda::λ
 :*:\Lambda::Λ
-:*:\'lambda::Λ
 
 :*:\labda::λ
-:*:\'Labda::λ
 :*:\Labda::Λ
-:*:\'labda::Λ
 
 ; Μ μ - Mu
 :*:\mu::μ
-:*:\'Mu::μ
 :*:\Mu::Μ
-:*:\'mu::Μ
 
 ; Ν ν - Nu
 :*:\nu::ν
-:*:\'Nu::ν
 :*:\Nu::Ν
-:*:\'nu::Ν
 
 ; Ξ ξ - Xi
 :*:\xi::ξ
-:*:\'Xi::ξ
 :*:\Xi::Ξ
-:*:\'xi::Ξ
 
 ; Ο ο - Omnicron
 :*:\omnicron::ο
-:*:\'Omnicron::ο
 :*:\Omnicron::Ο
-:*:\'omnicron::Ο
 
 ; Π π - Pi
 :*:\pi::π
-:*:\'Pi::π
 :*:\Pi::Π
-:*:\'pi::Π
 
 ; Ρ ρ - Rho
 :*:\rho::ρ
-:*:\'Rho::ρ
 :*:\Rho::Ρ
-:*:\'rho::Ρ
 
 ; Σ σ/ς - Sigma
 :*:\sigma::σ
-:*:\'Sigma::σ
 :*:\Sigma::Σ
-:*:\'sigma::Σ
+
 
 :*:\altsigma::ς
 
 ; Τ τ - Tau
 :*:\tau::τ
-:*:\'Tau::τ
 :*:\Tau::Τ
-:*:\'tau::Τ
 
 ; Υ υ - Upsilon
 :*:\upsilon::υ
-:*:\'Upsilon::υ
 :*:\Upsilon::Υ
-:*:\'upsilon::Υ
 
 ; Φ φ - Phi
 :*:\phi::φ
-:*:\'Phi::φ
 :*:\Phi::Φ
-:*:\'phi::Φ
 
 ; Χ χ - Chi
 :*:\chi::χ
-:*:\'Chi::χ
 :*:\Chi::Χ
-:*:\'chi::Χ
 
 ; Ψ ψ - Psi
 :*:\psi::ψ
-:*:\'Psi::ψ
 :*:\Psi::Ψ
-:*:\'psi::Ψ
 
 ; Ω ω - Omega
 :*:\omega::ω
-:*:\'Omega::ω
 :*:\Omega::Ω
-:*:\'omega::Ω
 
 
 ; Units and abreviations 
@@ -212,9 +158,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\+-::±
 
 ; Minus or plus
-:*:\minusplus::±
-:*:\minusorplus::±
-:*:\-+::±
+:*:\minusplus::∓
+:*:\minusorplus::∓
+:*:\-+::∓
 
 ; Square root
 :*:\squareroot::√
@@ -272,6 +218,10 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\ne::≠
 :*:\/=::≠
 
+; ? equals
+:*:\?=::≟
+:*:\=?::≟
+
 ; Less than or equal to
 :*:\lessthanorequal::≤
 :*:\lte::≤
@@ -319,7 +269,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\noteqv::≢
 
 ; Not
-:*:\not::¬
+:*:\nnot::¬
 :*:\altnot::~
 
 ; xor
@@ -373,6 +323,19 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ; Element of
 :*:\elementof::∈
+:*:\in::∈
+
+; Not element of
+:*:\notelementof::∉
+:*:\notin::∉
+
+; Contains
+:*:\contains::∋
+:*:\ni::∋
+
+; Does not contain
+:*:\notcontains::∌
+:*:\nin::∌
 
 ; End of proof/ QED
 :*:\endofproof::∎
@@ -488,7 +451,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 :*:\setR::ℝ
 :*:\setC::ℂ
 
+:*:\setH::ℍ
+:*:\setP::ℙ
 
+; Aleph, Cardinality
+:*:\aleph::ℵ
+
+; Beth, Cardinality
+:*:\beth::ℶ
 
 ;; other stuff
 
