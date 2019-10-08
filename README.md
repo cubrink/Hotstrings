@@ -3,7 +3,7 @@ An AutoHotkey script with hotstrings for several mathematical symbols.
 
 ## Basic Usage
 
-With the script running type ```\myhotstring``` to insert your desired text.
+With the script running type ```\<myhotstring>``` to insert your desired text.
 
 #### Usage for Greek letters
 
