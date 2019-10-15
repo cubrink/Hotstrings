@@ -1,6 +1,6 @@
-﻿;;;	Author	:		Curtis Brinker
-;;; Version	:		1.3.1
-;;; Source	:		github.com/cubrink/Hotstrings
+﻿;;;    Author   :        Curtis Brinker
+;;;    Version  :        1.3.1
+;;;    Source   :        github.com/cubrink/Hotstrings
 
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 #NoTrayIcon
