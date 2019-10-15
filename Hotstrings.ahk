@@ -1,4 +1,4 @@
-﻿;;;	Author	:		Curtis Brinker
+;;;	Author	:		Curtis Brinker
 ;;; Version	:		1.3.1
 ;;; Source	:		github.com/cubrink/Hotstrings
 
